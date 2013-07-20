@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/jstl/1.2/jstl-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/faces/jsf-api/2.0.0-b13/jsf-api-2.0.0-b13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/faces/jsf-impl/2.0.0-b13/jsf-impl-2.0.0-b13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/el/el-ri/1.0/el-ri-1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/primefaces/primefaces/3.5/primefaces-3.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/primefaces/primefaces-mobile/0.9.3/primefaces-mobile-0.9.3.jar"/>
+</classpath>

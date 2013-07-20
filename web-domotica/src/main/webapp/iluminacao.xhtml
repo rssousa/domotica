@@ -1,0 +1,28 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:p="http://primefaces.org/ui"
+        xmlns:pm="http://primefaces.org/mobile"
+        xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+        contentType="text/html"
+    renderKitId="PRIMEFACES_MOBILE">
+<script>
+function myFunction()
+{
+alert('teste');
+}
+</script>
+    <pm:page title="Contacts">
+        <!-- Main View -->
+        <pm:view id="main" swatch="d">
+            <h:form >               
+               <pm:content> 
+              <pm:switch id="switch" onLabel="yes" offLabel="no" label="lED PORTA 8:" value="#{iluminacaoMB.estado}">
+<!--                    <p:ajax event="itemSelect" listener="#{autoCompleteBean.handleSelect}" update="switch" />   -->
+              </pm:switch>
+               </pm:content>
+            </h:form>                                     
+        </pm:view>
+    </pm:page>
+</f:view>

@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<title>LINECONS - 48 Fully Scalable Vector Icons</title>
+<link rel="stylesheet" href="css/style.css" />
+
+<!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+
+<!-- 
+
+Thanks http://icomoon.io/app/ for amazing service!
+
+-->
+
+
+<style>
+	section, header, footer {display: block;}
+	body {
+		font-family: 'Varela Round', sans-serif;
+		color: #333333;
+		line-height: 1.5;
+		font-size: 16px;
+		background:black;
+		color:white;
+		-moz-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+		-webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.21);
+	}
+	* {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	}
+	.glyph {
+		float: left;
+		text-align: center;
+		padding: .5em;
+		margin: 0 .5em;
+		width: 7em;
+		border-radius: .375em;
+		top:0;
+		position:relative;
+		-webkit-transition:0.2s ease-in;
+		-o-transition:0.2s ease-in;
+		-moz-transition:0.2s ease-in;
+		-ie-transition:0.2s ease-in;
+		transition:0.2s ease-in;
+	}
+	.glyph input {
+		width: 100%;
+		text-align: center;
+		font-family: consolas, monospace;
+		border-radius:3px;
+		border:none;
+		padding:4px;
+		background:black;
+		color:white;
+		-webkit-transition:0.2s ease-in;
+		-o-transition:0.2s ease-in;
+		-moz-transition:0.2s ease-in;
+		-ie-transition:0.2s ease-in;
+		transition:0.2s ease-in;
+	}
+	.glyph:hover input {
+		background:black;
+		padding:4px;
+		color:#ffffff;
+	}
+	.glyph:hover {
+		-webkit-transition: all 0.5s ease-out;
+		background:#222821;
+		color:#fff;
+		text-shadow: none;
+		-moz-text-shadow: none;
+		-webkit-text-shadow: none;
+		top:-5px;
+		position:relative;
+	}
+	.glyph input, .mtm {
+		margin-top: .75em;
+	}
+	.w-main {
+		width: 770px;
+		text-align:center;
+	}
+	.centered {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fs1 {
+		font-size: 3em;
+	}
+	header {
+	    margin: 2em 0;
+		padding: 2em 0;
+		border-bottom: 1px solid rgb(11, 11, 11);
+	}
+	header h1 {
+/* 		font-size: 3.5em; */
+/* 		font-weight: normal; */
+	}
+	.clearfix:before, .clearfix:after { content: ""; display: table; }
+	.clearfix:after, .clear { clear: both; }
+	footer {
+		margin: 2em 0;
+		padding: 2em 0;		
+		border-top: 1px solid rgb(11, 11, 11);
+	}
+	a, a:visited {
+		color: #ffffff; text-decoration:none;
+	}
+	a:hover, a:focus {color: #222821; text-decoration:none;}
+	.box1 {
+		display: inline-block;
+		width: 14em;
+		padding: .25em .5em;
+		margin: .5em 1em .5em 0;
+		text-align:left;
+		
+	}
+	.box1 span { 
+		font-size:2em;
+		position: relative;
+		top: 0.25em;
+		margin-right: 0.1em;
+	}
+</style>
+</head>
+<body>
+	<div class="w-main centered">
+	<header>
+	Primeira versão de tela
+	</header>
+	<section class="mtm clearfix" id="glyphs">
+	<div class="glyph" onclick="">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe00e;"></div>
+		<input type="text" readonly="readonly" value="Iluminação" />
+	</div>
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe005;"></div>
+		<input type="text" readonly="readonly" value="Cameras" />
+	</div>	
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe028;"></div>
+		<input type="text" readonly="readonly" value="Temperatura" />
+	</div>
+	<div class="glyph">
+		<div class="fs1" aria-hidden="true" data-icon="&#xe02a;"></div>
+		<input type="text" readonly="readonly" value="Casa" />
+	</div>
+	</section>	
+	<footer>
+		<p>((((fonte))))</p>
+		<p>Updates here: <a href="http://designmodo.com/linecons-free">http://designmodo.com/linecons-free</a></p>
+	</footer>
+	</div>
+	<script>
+	document.getElementById("glyphs").addEventListener("click", function(e) {
+		var target = e.target;
+		if (target.tagName === "INPUT") {
+			target.select();
+		}
+	});
+	</script>
+</body>
+</html>
